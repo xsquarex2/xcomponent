@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view bindtap='clickitem' wx:key="{{index}}" data-index='{{index}}' class='flex-row-center item' wx:for="{{components}}" >
+    <text class='itemtext'>{{item}}</text>
+  </view>
+</view>
