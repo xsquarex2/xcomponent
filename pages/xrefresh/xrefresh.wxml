@@ -1,2 +1,4 @@
 <!--pages/xrefresh/xrefresh.wxml-->
-<text>pages/xrefresh/xrefresh.wxml</text>
+<view wx:for="{{lists}}" wx:key="{{index}}" class="flex-row-center " style='width:100%;height:50px;'>
+  <text style='height:50rpx;'>{{item}}</text>
+</view>
