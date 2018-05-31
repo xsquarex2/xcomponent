@@ -3,7 +3,9 @@
 .container {
   width: 100%;
 }
-
+.align-center{
+  align-self: center;
+}
 .flex-column {
   display: flex;
   display: -webkit-flex;

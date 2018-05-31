@@ -1,1 +1,12 @@
-{"enablePullDownRefresh": true}
+{
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "xmore",
+  "navigationBarBackgroundColor": "#000000",
+  
+  "backgroundColor": "#000000",
+  "usingComponents": {
+    "xmore": "/components/xmore/xmore"
+  }
+}

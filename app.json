@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/xrefresh/xrefresh"
+    "pages/xrefresh/xrefresh",
+    "components/xmore/xmore"
   ],
   "window": {
     "backgroundTextStyle": "light",

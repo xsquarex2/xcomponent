@@ -1,4 +1,5 @@
 <!--pages/xrefresh/xrefresh.wxml-->
-<view wx:for="{{lists}}" wx:key="{{index}}" class="flex-row-center " style='width:100%;height:50px;'>
-  <text style='height:50rpx;'>{{item}}</text>
+<view wx:for="{{lists}}" wx:key="{{index}}" class="flex-row-center " class='flex-row-center' style='width:100%;height:50px'>
+  <text class='align-center' style='height:50rpx'>{{item}}</text>
 </view>
+<xmore id="xmore"></xmore>

@@ -1,0 +1,6 @@
+<!--components/xmore/xmore.wxml-->
+<view class='more'>
+  <view wx:if="{{status !=0 }}" class='loadicon'></view>
+  <view wx:if="{{status == 0}}" class='loadtext'>{{textnomore}}</view>
+  <view wx:if="{{status == 1}}" class='loadtext'>{{textloading}}</view>
+</view>
